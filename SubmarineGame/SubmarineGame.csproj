@@ -42,6 +42,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game1.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\SpriteGameObject.cs" />
+    <Compile Include="GameObjects\Submarine\Submarine.cs" />
+    <Compile Include="GameObjects\Submarine\SubmarinePart.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
